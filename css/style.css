@@ -34,3 +34,22 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.search-box input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid var(--color-principal);
+    font-size: 16px;
+}
+
+.search-box button{
+    padding: 15px 0;
+    width: 25%;
+    background-color: var(--color-principal);
+    border: none;
+    outline: none;
+    color: var(--color-white);
+    border-radius: 5px;
+}
