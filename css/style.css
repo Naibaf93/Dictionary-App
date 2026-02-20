@@ -53,3 +53,21 @@ body{
     color: var(--color-white);
     border-radius: 5px;
 }
+
+.result{
+    position: relative;
+}
+
+.result h3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button{
+    background-color: transparent;
+    color: var(--color-principal);
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
