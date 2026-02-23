@@ -11,13 +11,13 @@ btn.addEventListener("click", () => {
             console.log(data);
             result.innerHTML = `
             <div class="word">
-                <h3>Sample</h3>
+                <h3>${inputWord}</h3>
                 <button>
                 <i class="fa-solid fa-volume-high"></i>
                 </button>
             </div>
             <div class="details">
-                <p>pos</p>
+                <p>${data[0].meanings[0].partsOfSpeech}</p>
                 <p>/sample/</p>
             </div>
             <p class="word-meaning">
